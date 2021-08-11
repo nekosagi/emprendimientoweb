@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap");
+body {
+  margin: 0;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  font-family: "Poppins", sans-serif;
+}
+
+.section__barra {
+  font-family: "Poppins", sans-serif;
+}
+
+.footer {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10%;
+  background-color: #060606;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
