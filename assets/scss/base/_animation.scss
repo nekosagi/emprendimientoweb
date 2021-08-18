@@ -1,0 +1,37 @@
+@keyframes rotar {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    } 
+}
+
+@keyframes mover {
+    0% {
+        transform:translateX(0px);
+    }
+    50% {
+        transform:translateX(140px);
+    }
+
+    100% {
+        transform:translateX(0px);
+    }
+    
+}
+
+#engranaje, #inner{
+    transform-origin: 79% 79%;
+    animation: rotar 4s linear infinite;
+}
+
+#mayor, #menor, #slash{
+   // position: relative;
+    animation: mover 3s ease-in-out infinite;
+}

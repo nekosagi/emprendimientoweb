@@ -1,7 +1,46 @@
 .footer {
     display: flex;
-    justify-content: space-between;
-    padding: 10px 10%;
-    background-color: $Sable;
+    flex-direction: column;
     color: $White;
+    background-color: $Black;
+    padding: 30px;
+    
+    &__copyright, &__text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    &__text a {
+        color: $White;
+    }
+
+    &__input {
+        margin: 0 20%;
+    }
+
+    &__button {
+        margin: 0 35%;
+    }
+
+    @include responsive ($smalldev) {
+        flex-direction: row;
+        justify-content: space-between; 
+        padding: 30px 100px;
+        justify-content: baseline;
+
+        &__copyright {
+            margin: 0;
+        }
+
+        &__input, &__button {
+            margin: initial;
+        }
+        
+        &__text{
+            flex-direction: row;
+        }
+    }
+    
 }

@@ -1,0 +1,10 @@
+button {
+    background-color: $Orange;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: $White;
+    }
+}

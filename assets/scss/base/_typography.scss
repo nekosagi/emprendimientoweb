@@ -4,6 +4,15 @@ body{
     font-family: $principal;
 }
 
+p{
+    line-height: $x-large;
+}
+
+h2{
+    font-size: $large;
+    font-weight: $bold;
+}
+
 h3 {
     font-family: $auxiliar;
 }
@@ -11,9 +20,15 @@ h3 {
 .nav {
     font-family: $auxiliar;
 }
+.section {
+    &__barra{
+        font-family: $auxiliar;
+    }
 
-.section__barra{
-    font-family: $auxiliar;
+    &__rrss i{
+        font-size: $large;
+        margin: 5px;
+    }
 }
 
 .footer {
